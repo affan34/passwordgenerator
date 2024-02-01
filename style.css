@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Ubuntu:wght@700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+.header{
+  background-color:blue;
+background-image:url("https://w.forfun.com/fetch/b5/b5d78377e69b160ecc9d89ef7fe67a1a.jpeg");
+  height:65vh;
+  width:100vw;
+  color:white;
+  font-family: 'Ubuntu', sans-serif;
+}
+.img1{
+  width:10vw;
+  height:22vh;
+  border-radius: 68px;
+    position: relative;
+    left: 85vw;
+  top:11vh;
+
+}
+.welcome{
+  font-size:5vh;
+      width: 45vw;
+  position:relative;
+  left:10vw;
+  top:-7vh;
+}
+.middle{
+  height:160vh;
+  background-color:#668CFF;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+}
+.middle1{
+  height:40vh;
+     background-color:#668CFF;
+    width: 60vw;
+    position: relative;
+    left: 22vw;
+  font-size:9vh;
+  top:7vh;
+}
+.p1{
+  font-size:3vh;
+      position: relative;
+    top: 7vh;
+}
+.pass1{
+  position:relative;
+  width:50vw;
+  height:25vh;
+  background-color:white;
+  left:25vw;
+  top:20vh;
+  border-radius:20px 20px 0px 0px ;
+  font-family: 'Inclusive Sans', sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:5vh;
+  overflow:scroll;
+}
+.pass1::-webkit-scrollbar{
+  display:none;
+}
+.pass1{
+  scrollbar-width:none;
+}
+.show{
+  width:25vw;
+  height:2vh;
+  position:relative;
+  top:17.5vh;
+    left:25vw;
+  background-color:#00007a;
+  
+}
+.red{
+   background-color:red;
+  width:10vw;
+  
+}
+.green{
+  background-color:green;
+  width:50vw;
+}
+.show{
+  transition:width 2s ease-in;
+}
+.pass2{
+  position:relative;
+  width:50vw;
+  height:40vh;
+  background-color:#FEFCFF;
+  left:25vw;
+  top:22vh;
+  font-family: 'Inclusive Sans', sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:5vh;
+  border-radius:16px;
+}
+#input:hover{
+  cursor:pointer;
+}
+#input{
+  width: 25vw;
+  position: relative;
+  top: 3vh;
+  left:-7vw;
+}
+.inputshow{
+  height: 9vh;
+  width: 5vw;
+  background-color:white;
+  font-family: 'Inclusive Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -9vh;
+  left: 63vw;
+  border:2px solid black;
+  border-radius:12px;
+  font-size:5vh;
+
+}
+.cust{
+  position:relative;
+      top: -23vh;
+    left: 29vw;
+  font-size:4vh;
+  font-weight:bolder;
+} 
+.len{
+  position:relative;
+      top: -20vh;
+    left: 29vw;
+  font-size:3.5vh;
+   font-family: 'Inclusive Sans', sans-serif;
+  
+}
+.button{
+  background-color:red;
+      display: flex;
+    justify-content: center;
+    position: relative;
+    top: 6vh;
+    height: 12vh;
+  font-size:3vh;
+  width:15vw;
+  left:42vw;
+  align-items:center;
+  border-radius:96px;
+  transition:0.25s;
+  color:white;
+}
+.button2{
+  background-color:green;
+}
+.button:hover{
+  cursor:pointer;
+  transform:scale(1.05);
+}
+.bottom{
+  width:100vw;
+  height:20vh;
+  background-image:url("https://w.forfun.com/fetch/b5/b5d78377e69b160ecc9d89ef7fe67a1a.jpeg");
+  display:flex;
+  justify-content:center;
+  align-items:center;
+   font-family: 'Inclusive Sans', sans-serif;
+  color:white;
+}
+/* css for mobile */
+@media screen and (max-width:600px){
+  *{
+    overflow-x:hidden;
+  }
+  .header{
+    height:48vh;
+  }
+  .img1{
+    width: 32vw;
+  height: 15vh;
+  left: 6vw;
+  top: 4vh;
+  }
+.welcome {
+  font-size: 3vh;
+  width: 100vw;
+  position: relative;
+  left: 5vw;
+  top: 7vh;
+}
+.cust{
+    left: 9vw;
+    font-size: 3vh;
+    width: 82vw;
+    top: -25vh;
+}
+.middle1{
+  font-size:3.5vh;
+}
+  .len{
+    width:82vw;
+     font-size: 2vh;
+    top: -23vh;
+  left: 10vw;
+  }
+  .pass1 {
+  width: 88vw;
+  height: 15vh;
+  left: 6vw;
+  top: 11vh;
+  font-size:2.5vh;
+  }
+  .show{
+  width: 25vw;
+  height: 3vh;
+  top: 7.5vh;
+  left: 6vw;
+  }
+  .green{
+  background-color:green;
+  width:88vw;
+  }
+  .show{
+  transition:width 2s ease-in;
+}
+  .pass2 {
+  position: relative;
+  width: 88vw;
+  height: 30vh;
+  background-color: #FEFCFF;
+  left: 6vw;
+  top: 11vh;
+  }
+  .inputshow {
+  height: 7vh;
+  width: 20vw;
+  top: -7vh;
+  left: 36vw;
+  }
+  #input {
+  width: 79vw;
+  position: relative;
+  top: 8vh;
+  left: 1vw;
+}
+  .button {
+  top: 1vh;
+  height: 8vh;
+  font-size: 2vh;
+  width: 51vw;
+  left: 25vw;
+  }
+.middle {
+  height: 120vh;
+}
+
+
+
+
+
+  
+}
